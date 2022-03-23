@@ -14,8 +14,12 @@ int main ()
       if (n%2 == 0 )
 	
 	{
-	  result = result + 1.0/(n);  
+	  ;
  	}
+      else
+	{
+	  result = result + 1.0/(n);
+	}
 	
     }
 
